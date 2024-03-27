@@ -95,3 +95,10 @@ footer i {
     padding: 5%;
     color: #d91010;
 }
+
+/* special fx */
+.box-shadow {
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 1px 2px 20px 7px #d91010;
+  }
