@@ -67,6 +67,14 @@ h1 {
     justify-content:center;
 }
 
+#main-paragraphs{
+    width: 525px;
+    height: 250px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+
 footer {
     height: 15vh;
     background-color: black;
