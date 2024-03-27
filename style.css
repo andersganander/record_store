@@ -28,6 +28,18 @@ h1 {
     padding-right: 20px;
 }
 
+#main-background {
+    /*height: 550px;*/
+    height: 70vh;
+    width: 100%;
+    background: url('assets/images/mick-haupt-xOwbhrCGpIU-unsplash.jpg') no-repeat center center/cover;
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
 footer {
     height: 15vh;
     background-color: black;
