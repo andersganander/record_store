@@ -7,3 +7,13 @@ __pycache__/
 node_modules/
 .github/
 cloudinary_python.txt
+my_index.html
+my_style.css
+fl_index.html
+fl_style.css
+fl_records.html
+README_ci.md
+README_yoga.md
+test_images/
+assets/images/covers/
+

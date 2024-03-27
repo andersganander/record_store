@@ -1,110 +1,166 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# REAL Records
 
-Welcome USER_NAME,
+Real Records is a web site for the imaginary record store with the same name. The purpose of the site is to give the users information of what they can find in the store and what events that are arranged so that they want to visit the store. Another goal is to build a community for people interested in music, both in the store but also online.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The live link can be found here - [REAL Records](https://)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![Am I Responsive Image]()
 
-## Gitpod Reminders
+## Site Owner Goals 
+- To make the user curious to visit the physical store by:
+    - Showing records that can be found in the store
+    - Inform users about upcoming events
+    - Re-create the same atmosphere on the web site as in the store
+-  To make the users wanting to be a part of a community
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## User Stories
+- ### First time user
+  - As a first time user I want to understand the main purpose of the site and how to navigate around it.
+  - As a first time user I want to understand what kind of music i can find in the store.
+  - As a first time user I want to find information about wow to contact the store and where to find it. 
 
-`python3 -m http.server`
+- ### Returning User
+  - As a returning user I want to explore the records section ...
+  - As a returning user I want to explore the events section ...
+  - As a returning user I want to contact the
 
-A blue button should appear to click: _Make Public_,
+- ### Frequent User
+  - As a frequent user I want to be able to 
+  - 
+-  
 
-Another blue button should appear to click: _Open Browser_.
+## Design
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Imagery
+The images used on the REAL Records web site are chosen to re-create the atmosphere of the real store. Nice images of vinyl records and vinyl players. 
 
-A blue button should appear to click: _Make Public_,
+### Colours
+The colors used on the site are mainly black, white and red. Black is the natural and most common color of a vinyl record and therefore seems like a natural choice. It is used as a background color i the navigation bar and in the footer. The use of red text on white background is a hommage to the the rock singer David Bowie and his album 'Station to Station'.  
 
-Another blue button should appear to click: _Open Browser_.
+### Fonts
+The xxx font is used for headings and in the nav bar. It's chosen because of it's resemblence to the font used on the album 'Station to Station'.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Wireframes
+Wireframes were produced using Balsamiq. 
 
-To log into the Heroku toolbelt CLI:
+ <details>
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+ <summary>Desktop Wireframe</summary>
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![Desktop Wireframe]()
+ </details>
 
-------
+ <details>
+    <summary>Mobile Wireframe</summary>
 
-## Release History
+![Mobile Wireframe]()
+ </details>
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Features
+- ### Navigation
 
-**September 20 2023:** Update Python version to 3.9.17.
+    - The fully responsive navigation bar 
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+![Nav bar image](docs/readme_images/nav-bar.png)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- ### The Landing Page Image
+    - The landing page...
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+![Landing page image](docs/readme_images/landing-page.png) 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+- ### Records Page
+    - This page
+  
+- ### Events Page
+    - The Events page
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+- ### Contact page
+    - The contact page
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+![Form section image](docs/readme_images/form-section.png) 
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- ### Footer
+    - The footer section 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+![Footer image](docs/readme_images/footer.png)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Features Left to Implement
+- 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Testing
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Validator Testing
+- #### HTML
+    - 
+- #### CSS
+    - 
+- #### Accessibility 
+    - 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+![Lighthouse score]()
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Form Testing
+- The form 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Links Testing
+- 
 
-------
+### Browser Testing
+- 
+    
+### Device Testing
+- 
 
-## FAQ about the uptime script
+### Friends and Family User Testing
 
-**Why have you added this script?**
+### Fixed Bugs
+#### ABug 1
+- The 
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+#### Bug 2
+- When I first 
 
-**How will this affect me?**
+### Known Bugs
+HTML Smooth Scroll does not work on Safari browser.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+## Technologies Used
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+### Languages
+- HTML5
+- CSS
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### Frameworks - Libraries - Programs Used
+- [Am I Responsive](http://ami.responsivedesign.is/) - Used to verify responsiveness of website on different devices.
+- [Responsinator](http://www.responsinator.com/) - Used to verify responsiveness of website on different devices.
+- [Balsamiq](https://balsamiq.com/) - Used to generate Wireframe images.
+- [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - Used for overall development and tweaking, including testing responsiveness and performance.
+- [Font Awesome](https://fontawesome.com/) - Used for Social Media icons in footer.
+- [GitHub](https://github.com/) - Used for version control and hosting.
+- [Google Fonts](https://fonts.google.com/) - Used to import and alter fonts on the page.
+- [TinyPNG](https://tinypng.com/) - Used to compress images to reduce file size without a reduction in quality.
+- [W3C](https://www.w3.org/) - Used for HTML & CSS Validation.
+- 
 
-**So….?**
+## Deployment
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+The project was deployed using GitHub pages. The steps to deploy using GitHub pages are:
 
-**Can I opt out?**
+1. Go to the repository on GitHub.com
+2. Select 'Settings' near the top of the page.
+3. Select 'Pages' from the menu bar on the left of the page.
+4. Under 'Source' select the 'Branch' dropdown menu and select the main branch.
+5. Once selected, click the 'Save'.
+6. Deployment should be confirmed by a message on a green background saying "Your site is published at" followed by the web address.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+The live link can be found here - []()
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+## Credits
 
-**Anything more?**
+### Content
+All content was produced by the author.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+### Media
 
----
+### Resources Used
 
-Happy coding!
+## Acknowledgments
