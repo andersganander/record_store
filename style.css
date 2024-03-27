@@ -35,6 +35,12 @@ nav {
     justify-content: space-between;
 }
 
+h1,h2,h3 {
+    font-family: 'Geologica', sans-serif;
+    text-transform: uppercase;
+    color: #d91010;
+}
+
 h1 {
     font-size: 4rem;
 	margin: 0;
