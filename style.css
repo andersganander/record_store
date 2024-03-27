@@ -102,3 +102,10 @@ footer i {
     border-radius: 4px;
     box-shadow: 1px 2px 20px 7px #d91010;
   }
+
+  /* Google fonts */
+.rubik-mono one-regular {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
