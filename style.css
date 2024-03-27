@@ -101,6 +101,22 @@ h1 {
     padding: 5px;
 }
 
+#card_container{
+    width: 700px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#artist_title{
+    font-weight: bold;
+    color:#d91010
+}
+
+#format {
+    font-weight: bold ;
+}
+
 footer {
     height: 15vh;
     background-color: black;
