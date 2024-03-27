@@ -12,3 +12,11 @@
     background-color: #ffffff;
     opacity: 0.85;
 }
+
+nav {
+    background-color: black;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
