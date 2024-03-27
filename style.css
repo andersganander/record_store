@@ -21,6 +21,13 @@ nav {
     justify-content: space-between;
 }
 
+h1 {
+    font-size: 4rem;
+	margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 footer {
     height: 15vh;
     background-color: black;
