@@ -150,8 +150,27 @@ p {
     justify-content:center;
 }
 
-      
-      
+#event-card {
+    width: 610px;
+    height: 125px;
+    margin: 10px;
+    padding: 5px;
+}     
+
+#event_date {
+    width: 60px;
+    height: 70px;
+    margin: 10px;
+    padding: 5px;
+    color:#d91010
+}
+
+#info_container{
+    width: 500px;
+    height: 100px;
+    margin: 10px;
+    padding: 5px;
+}
 
 /* Rules for Contact page */
 #contact-bg {
