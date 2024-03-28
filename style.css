@@ -135,6 +135,40 @@ p {
     justify-content: space-around;
 }
 
+/* Rules for Events page */
+#events-bg {
+    
+    background: url('assets/images/pexels-cottonbro-studio-6862361.jpg') no-repeat center center/cover fixed;
+       /*height: 550px;*/
+    height: 70vh;
+    width: 100%;
+
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+      
+      
+
+/* Rules for Contact page */
+#contact-bg {
+    
+    background: url('assets/images/jack-hamilton-CMnNiQBkwBI-unsplash.jpg') no-repeat center center/cover fixed;
+       /*height: 550px;*/
+    height: 70vh;
+    width: 100%;
+
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+
 footer {
     height: 2.5rem;
     background-color: black;
