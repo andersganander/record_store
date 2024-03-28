@@ -47,13 +47,19 @@ Wireframes were produced using Balsamiq.
 
  <summary>Desktop Wireframe</summary>
 
-![Desktop Wireframe]()
+![Desktop Wireframe](docs/readme_images/Home.png)
+![Desktop Wireframe](docs/readme_images/Records.png)
+![Desktop Wireframe](docs/readme_images/Events.png)
+![Desktop Wireframe](docs/readme_images/Contact.png)
  </details>
 
  <details>
     <summary>Mobile Wireframe</summary>
 
-![Mobile Wireframe]()
+![Mobile Wireframe](docs/readme_images/Mobile_home.png)
+![Mobile Wireframe](docs/readme_images/Mobile_records.png)
+![Mobile Wireframe](docs/readme_images/Mobile_events.png)
+![Mobile Wireframe](docs/readme_images/Mobile_contact.png)
  </details>
 
 ## Features
