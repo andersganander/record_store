@@ -126,7 +126,7 @@ h1 {
 }
 
 footer {
-    height: 15vh;
+    height: 2.5rem;
     background-color: black;
     text-align: center;
     position: fixed;
@@ -142,7 +142,8 @@ footer {
 
 footer i {
     font-size: 160%;
-    padding: 5%;
+    padding: 5px;
+    margin: 0px;
     color: #d91010;
 }
 
