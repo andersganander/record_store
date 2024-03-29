@@ -56,23 +56,33 @@ h1 {
     padding-right: 20px;
 }
 
+main {
+    background-image: url('assets/images/adrian-korte-5gn2soeAc40-unsplash.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative; /* Ensure the fixed footer doesn't overlap content */
+    padding-bottom: 10%; /* Equal to footer height */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 p {
     font-family:'Roboto';
     /*font-weight: bolder;*/
 }
 
-#main-background {
-    /*height: 550px;*/
+/* #main-background {
     height: 70vh;
     width: 100%;
-    /*background: url('assets/images/mick-haupt-xOwbhrCGpIU-unsplash.jpg') no-repeat center center/cover;*/
     background: url('assets/images/adrian-korte-5gn2soeAc40-unsplash.jpg') center center / cover no-repeat fixed;
     position: relative;
-
     display: flex;
     flex-direction: row;
     justify-content:center;
-}
+}*/
 
 #main-paragraphs{
     width: 525px;
