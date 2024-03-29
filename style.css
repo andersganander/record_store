@@ -89,6 +89,10 @@ p {
     /*font-weight: bolder;*/
 }
 
+.small_margin{
+    margin: 5px;
+}
+
 /* #main-background {
     height: 70vh;
     width: 100%;
@@ -107,13 +111,12 @@ p {
 }
 
 .info_text {
-    background-color: grey; /* Light background for the text block */
-    margin: 0 auto 20px; /* Center the block and add margin below */
-    padding: 15px; /* Padding inside the text block */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for consistency with cards */
+    background-color: grey; 
+    margin: 0 auto 20px; 
+    padding: 0px 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     width: calc(100% - 100px); 
-    /*box-sizing: border-box; */ 
-    text-align: left; /* Align the text to the left */
+    text-align: left; 
 }
 
 .bg_records{
