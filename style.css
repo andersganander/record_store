@@ -110,7 +110,7 @@ p {
       justify-content:center;
   } */
 
-  #record_card {
+  .record_card {
     /*background: url('assets/images/brett-jordan-hrUhyFq6u-A-unsplash.jpg');
     background-size: 300px 300px;
     background-repeat: no-repeat;*/
@@ -120,7 +120,7 @@ p {
     padding: 5px;
 }
 
-#card_container{
+.card_container{
     width: 700px;
     margin-bottom: 60px;
     display:flex;
@@ -128,21 +128,25 @@ p {
     flex-wrap: wrap;
 }
 
-#artist_title{
+.artist_title{
     font-weight: bold;
     color:#d91010
 }
 
-#format {
+.format {
     font-weight: bold ;
 }
 
-#cover_container{
+.cover_container{
     padding-top: 10px;
     padding-bottom: 10px;
     display:flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.description{
+    
 }
 
 /* Rules for Events page */
