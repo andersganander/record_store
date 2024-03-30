@@ -27,27 +27,33 @@
         </nav> 
         <main class="bg_contact">
             <div class="form_container">
-                <form id="contact_form" action="">
+                <form id="contact_form" action="https://formdump.codeinstitute.net/" target="_blank" >
                 
                     <label for="category" class="dymo_text">Category</label><br>
                     <select id="category" name="category">
-                    <option value="record">Record inquiry</option>
-                    <option value="event">Participate in event</option>
+                    <option value="record">I'm interested in one of the records</option>
+                    <option value="record">I'm interested in another record</option>
+                    <option value="event">I want to participate in event</option>
+                    <option value="event">I want to host an event in your store</option>
                     <option value="other">Other</option>
                     </select>
                     <br><br>
                     <label for="subject" class="dymo_text">Subject</label><br>
-                    <textarea id="subject" name="subject" placeholder="Decribe your issue.." style="height:200px"></textarea>
+                    <textarea id="subject" name="subject" style="height:200px"></textarea>
                     <br>
                     <label for="fname" class="dymo_text">First Name</label>
                     <br>
-                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <input type="text" id="fname" name="firstname">
                     <br>
                 
                     <label for="lname" class="dymo_text">Last Name</label>
                     <br>
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <input type="text" id="lname" name="lastname">
                     <br>
+                    <label for="email" class="dymo_text">E-mail</label>
+                    <br>
+                    <input type="email" id="email" name="email">
+                    <br><br>
                     <input type="submit" value="Submit">
                 
                 </form>
