@@ -49,9 +49,14 @@ nav {
 
 nav a {
     color: #d91010;
-    font-family: 'Geologica', sans-serif;
+    font-family: 'DymoFontInvers', sans-serif;
+    /*font-family: 'Geologica', sans-serif;*/
     font-size: larger;
     text-decoration: none;
+}
+
+.active {
+    color:#ffffff
 }
 
 h1,h2,h3 {
@@ -59,6 +64,7 @@ h1,h2,h3 {
     font-family: 'DymoFontInvers', sans-serif;
     text-transform: uppercase;
     color: #d91010;
+    background-color: #ffffff;
 }
 
 h4,.dymo_text{
