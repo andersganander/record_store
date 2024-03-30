@@ -64,7 +64,6 @@ h1,h2,h3 {
     font-family: 'DymoFontInvers', sans-serif;
     text-transform: uppercase;
     color: #d91010;
-    background-color: #ffffff;
 }
 
 h4,.dymo_text{
@@ -355,6 +354,25 @@ footer i {
     font-style: normal;
   }
 
+
+  @media screen and (max-width: 755px) {
+    h1 {
+        font-size: 2rem;
+        margin: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    nav a {
+        color: #d91010;
+        font-family: 'DymoFontInvers', sans-serif;
+        /*font-family: 'Geologica', sans-serif;*/
+        font-size: small;
+        text-decoration: none;
+    }
+
+}
+
   /* Media query: tablets and larger */
 @media screen and (min-width: 768px) {
     #form_container {
@@ -363,5 +381,4 @@ footer i {
         left: 10%;
         top: 150px;
     }
-
 }
