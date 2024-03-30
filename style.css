@@ -252,7 +252,8 @@ p {
 
 .event_card{
     background-color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);*/
+    box-shadow: -9px 11px 10px 8px rgba(0, 0, 0, 0.7);
     width: calc(50% - 20px); /* Adjust based on gap and desired card width */
     text-align: center;
     padding: 10px;
