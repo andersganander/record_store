@@ -2,7 +2,7 @@
 
 Real Records is a web site for the imaginary record store with the same name. The purpose of the site is to give the users information of what they can find in the store and what events that are arranged so that they want to visit the store. Another goal is to build a community for people interested in music, both in the store but also online.
 
-The live link can be found here - [REAL Records](https://)
+The live link can be found here - [REAL Records](https://andersganander.github.io/record_store/)
 
 ![Am I Responsive Image]()
 
@@ -17,17 +17,16 @@ The live link can be found here - [REAL Records](https://)
 - ### First time user
   - As a first time user I want to understand the main purpose of the site and how to navigate around it.
   - As a first time user I want to understand what kind of music i can find in the store.
-  - As a first time user I want to find information about wow to contact the store and where to find it. 
+  - As a first time user I want to find information about how to contact the store and where to find it. 
 
 - ### Returning User
-  - As a returning user I want to explore the records section ...
-  - As a returning user I want to explore the events section ...
-  - As a returning user I want to contact the
+  - As a returning user I want to explore the records section.
+  - As a returning user I want to explore the events section.
+  - As a returning user I want to contact the store.
 
 - ### Frequent User
-  - As a frequent user I want to be able to 
-  - 
--  
+  - As a frequent user I want to be able to find information about newly added records.
+  - As a frequent user I want to be able to find information about upcoming events.
 
 ## Design
 
@@ -35,10 +34,10 @@ The live link can be found here - [REAL Records](https://)
 The images used on the REAL Records web site are chosen to re-create the atmosphere of the real store. Nice images of vinyl records and vinyl players. 
 
 ### Colours
-The colors used on the site are mainly black, white and red. Black is the natural and most common color of a vinyl record and therefore seems like a natural choice. It is used as a background color i the navigation bar and in the footer. The use of red text on white background is a hommage to the the rock singer David Bowie and his album 'Station to Station'.  
+The colors used on the site are mainly black, white and red. Black is the natural and most common color of a vinyl record and therefore seems like a natural choice. It is used as a background color i the navigation bar and in the footer. 
 
 ### Fonts
-The xxx font is used for headings and in the nav bar. It's chosen because of it's resemblence to the font used on the album 'Station to Station'.
+The font "DymoFontInvers" is used to create a feeling of a rock/punk attitude and is used for headings and links in the navigation bar.
 
 ## Wireframes
 Wireframes were produced using Balsamiq. 
@@ -65,11 +64,14 @@ Wireframes were produced using Balsamiq.
 ## Features
 - ### Navigation
 
-    - The fully responsive navigation bar 
+    - The responsive navigation bar contains links to Home, Records, Events and Contact Pages.
+    - The current page is marked in the navigation bar with a different color.
+    - External pages are opened in a new tab so that user won't be confused.
+    - The text on the landing page also contain links to the other pages to make the user aware of what he/she can expect to find on the site. 
 
 ![Nav bar image](docs/readme_images/nav-bar.png)
 
-- ### The Landing Page Image
+- ### The Landing Page
     - The landing page...
 
 ![Landing page image](docs/readme_images/landing-page.png) 
