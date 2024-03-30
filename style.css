@@ -83,6 +83,13 @@ h1 {
     padding-right: 20px;
 }
 
+.h1_dymo{
+    font-family: 'DymoFontInvers', sans-serif;
+    font-size: 3rem;
+    font-style: normal;
+    color: #d91010;
+}
+
 main {
     background-image: url('assets/images/adrian-korte-5gn2soeAc40-unsplash.jpg');
     background-size: cover;
