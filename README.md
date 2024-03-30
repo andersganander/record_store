@@ -4,7 +4,7 @@ Real Records is a web site for the imaginary record store with the same name. Th
 
 The live link can be found here - [REAL Records](https://andersganander.github.io/record_store/)
 
-![Am I Responsive Image]()
+![Am I Responsive Image](docs/readme_images/am-i-resposive.jpg)
 
 ## Site Owner Goals 
 - To make the user curious to visit the physical store by:
