@@ -39,6 +39,8 @@ The colors used on the site are mainly black, white and red. Black is the natura
 ### Fonts
 The font "DymoFontInvers" is used to create a feeling of a rock/punk attitude and is used for headings and links in the navigation bar.
 
+For the normal text, courier new is used which also create a feeling of D. I. Y. as it reminds of the look of fanzines from the 80's. 
+
 ## Wireframes
 Wireframes were produced using Balsamiq. 
 
@@ -46,19 +48,19 @@ Wireframes were produced using Balsamiq.
 
  <summary>Desktop Wireframe</summary>
 
-![Desktop Wireframe](docs/readme_images/Home.png)
-![Desktop Wireframe](docs/readme_images/Records.png)
-![Desktop Wireframe](docs/readme_images/Events.png)
-![Desktop Wireframe](docs/readme_images/Contact.png)
+![Desktop Wireframe](docs/readme_images/wireframes/Home.png)
+![Desktop Wireframe](docs/readme_images/wireframes/Records.png)
+![Desktop Wireframe](docs/readme_images/wireframes/Events.png)
+![Desktop Wireframe](docs/readme_images/wireframes/Contact.png)
  </details>
 
  <details>
     <summary>Mobile Wireframe</summary>
 
-![Mobile Wireframe](docs/readme_images/Mobile_home.png)
-![Mobile Wireframe](docs/readme_images/Mobile_records.png)
-![Mobile Wireframe](docs/readme_images/Mobile_events.png)
-![Mobile Wireframe](docs/readme_images/Mobile_contact.png)
+![Mobile Wireframe](docs/readme_images/wireframes/Mobile_home.png)
+![Mobile Wireframe](docs/readme_images/wireframes/Mobile_records.png)
+![Mobile Wireframe](docs/readme_images/wireframes/Mobile_events.png)
+![Mobile Wireframe](docs/readme_images/wireframes/Mobile_contact.png)
  </details>
 
 ## Features
@@ -69,28 +71,34 @@ Wireframes were produced using Balsamiq.
     - External pages are opened in a new tab so that user won't be confused.
     - The text on the landing page also contain links to the other pages to make the user aware of what he/she can expect to find on the site. 
 
-![Nav bar image](docs/readme_images/nav-bar.png)
+![Nav bar image](docs/readme_images/nav_bar.jpg)
 
 - ### The Landing Page
     - The landing page...
 
-![Landing page image](docs/readme_images/landing-page.png) 
+![Landing page image](docs/readme_images/landing_page.jpg) 
 
 - ### Records Page
     - This page
+
+![Records page image](docs/readme_images/records_page.jpg) 
   
 - ### Events Page
     - The Events page
 
+![Events page image](docs/readme_images/events_page.jpg) 
+
 - ### Contact page
     - The contact page
 
-![Form section image](docs/readme_images/form-section.png) 
+![Contact page image](docs/readme_images/contact_page.jpg) 
 
 - ### Footer
     - The footer section 
 
-![Footer image](docs/readme_images/footer.png)
+![Footer image](docs/readme_images/footer.jpg)
+
+404 and favicon?
 
 ### Features Left to Implement
 - 
@@ -105,7 +113,9 @@ Wireframes were produced using Balsamiq.
 - #### Accessibility 
     - 
 
-![Lighthouse score]()
+![Lighthouse score](docs/readme_images/Lighthouse_1.jpg)
+
+![Lighthouse score](docs/readme_images/Lighthouse_2.jpg)
 
 ### Form Testing
 - The form 
