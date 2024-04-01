@@ -1,10 +1,10 @@
 # REAL Records
 
-Real Records is a web site for the imaginary record store with the same name. The purpose of the site is to give the users information of what they can find in the store and what events that are arranged so that they want to visit the store. Another goal is to build a community for people interested in music, both in the store but also online.
+Real Records is a web site for the imaginary record store with the same name. The purpose of the site is to give the users information of what they can find in the store and what events that are arranged so that they want to visit the store. Another long term goal is to build a community for people interested in music, both in the store but also online.
 
 The live link can be found here - [REAL Records](https://andersganander.github.io/record_store/)
 
-![Am I Responsive Image](docs/readme_images/am-i-resposive.jpg)
+![Am I Responsive Image](docs/readme_images/am-i-responsive.jpg)
 
 ## Site Owner Goals 
 - To make the user curious to visit the physical store by:
@@ -33,12 +33,12 @@ The live link can be found here - [REAL Records](https://andersganander.github.i
 The images used on the REAL Records web site are chosen to re-create the atmosphere of the real store. Nice images of vinyl records and vinyl players. 
 
 ### Colours
-The colors used on the site are mainly black, white and red. Black is the natural and most common color of a vinyl record and therefore seems like a natural choice. It is used as a background color i the navigation bar and in the footer. 
+The colors used on the site are mainly black, white and red. Black is the natural and most common color of a vinyl record and therefore seems like a natural choice. It is used as a background color in the navigation bar and in the footer. 
 
 ### Fonts
-The font "DymoFontInvers" is used to create a feeling of a rock/punk attitude and is used for headings and links in the navigation bar.
+The font Courier New is used in all texts and alson in headings and links in the nav bar. It's chosen for it's authenticity and it's retro feeling.
 
-For the normal text, courier new is used which also create a feeling of D. I. Y. as it reminds of the look of fanzines from the 80's. 
+The font "DymoFontInvers" is used to create a feeling of a rock/punk attitude and is used in the form on the CONTACT page.
 
 ## Wireframes
 Wireframes were produced using Balsamiq. 
@@ -73,7 +73,7 @@ Wireframes were produced using Balsamiq.
 ![Nav bar image](docs/readme_images/nav_bar.jpg)
 
 - ### The Landing Page
-    - The landing page is very straightforward and presents information about the subject. 
+    - The landing page is very straightforward and presents information about the the store and what the user can expect to find on the site.
 
 ![Landing page image](docs/readme_images/landing_page.jpg) 
 
@@ -106,53 +106,45 @@ Wireframes were produced using Balsamiq.
 
 ![Footer image](docs/readme_images/footer.jpg)
 
-404 and favicon?
-
-### Features Left to Implement
-- 
 
 ## Testing
 
 ### Validator Testing
 - #### HTML
-    - 
+    - The site was tested with W3C Markup Validation Service, without any errors.
+
 - #### CSS
-    - 
+    -  The site was tested with W3C CSS Validator, without any errors.
+
 - #### Accessibility 
-    - 
+    - The site was tested for accessibility with Ligthouse and received a good result.
 
-![Lighthouse score](docs/readme_images/Lighthouse_1.jpg)
+![Lighthouse score](docs/readme_images/lighthouse_new.jpg)
 
-![Lighthouse score](docs/readme_images/Lighthouse_2.jpg)
 
 ### User story testing
-The form 
+The tests has been done with Chrome on macOs
 
-![Feature testing](docs/readme_images/feature_testing.jpg)
-
+![Feature testing](docs/readme_images/test_1.jpg)
+![Feature testing](docs/readme_images/test_2.jpg)
+![Feature testing](docs/readme_images/test_3.jpg)
 
 ### Browser Testing
-The site were tested in the most common browsers (Chrome, Firefox, Safari and Edge). Alll browser were tested on mac os except for Edge which was tested on Windows 11.
+The site were tested in the most common browsers (Chrome, Firefox, Safari and Edge). Alll browsers were tested on mac os except for Edge which was tested on Windows 11.
 
 ![Browser testing](docs/readme_images/browser_testing.jpg)
 
     
 ### Device Testing
-- 
+In addition to testing responsiness with Am I Responsive and Responsinator the site has also been tested on some ios devices (iPhone SE and iPad). On the smaller iPhone there was an issue with the submit button when viewing the site in Safari (see the Browser testing table for a description of the issue and a workaround).
 
 
 ### Fixed Bugs
-
+All the bugs that were discovered during the development have been documented using GitHub issues. All bugs are fixed.
 ![List of fixed bugs](docs/readme_images/Fixed_bugs.jpg)
 
-#### ABug 1
-- The 
-
-#### Bug 2
-- When I first 
-
 ### Known Bugs
-- 
+- Issue with submit button in safari on smaller iphones. Workaround available (see browser testing table).
 
 ## Technologies Used
 
@@ -161,36 +153,64 @@ The site were tested in the most common browsers (Chrome, Firefox, Safari and Ed
 - CSS
 
 ### Frameworks - Libraries - Programs Used
-- [Am I Responsive](http://ami.responsivedesign.is/) - Used to verify responsiveness of website on different devices.
-- [Responsinator](http://www.responsinator.com/) - Used to verify responsiveness of website on different devices.
-- [Balsamiq](https://balsamiq.com/) - Used to generate Wireframe images.
-- [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - Used for overall development and tweaking, including testing responsiveness and performance.
-- [Font Awesome](https://fontawesome.com/) - Used for Social Media icons in footer.
+#### Development and design
+- [Balsamiq](https://balsamiq.com/) - Used to create wireframes for desktop and mobile.
+- [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - Used for overall development and testing.
 - [GitHub](https://github.com/) - Used for version control and hosting.
-- [Google Fonts](https://fonts.google.com/) - Used to import and alter fonts on the page.
-- [W3C](https://www.w3.org/) - Used for HTML & CSS Validation.
-- 
+
+#### Testing
+- [Am I Responsive](http://ami.responsivedesign.is/) - Used to verify responsiveness.
+- [Lighthouse](https://developer.chrome.com/docs/devtools/) - Used for overall accessibility testing from dev tools.
+- [Responsinator](http://www.responsinator.com/) - Used to verify responsiveness.
+- [W3C](https://www.w3.org/) - Used for validation of HTML and CSS.
 
 ## Deployment
 
 The project was deployed using GitHub pages. The steps to deploy using GitHub pages are:
 
 1. Go to the repository on GitHub.com
-2. Select 'Settings' near the top of the page.
+2. Select 'Settings' near the top right corner of the page.
 3. Select 'Pages' from the menu bar on the left of the page.
-4. Under 'Source' select the 'Branch' dropdown menu and select the main branch.
-5. Once selected, click the 'Save'.
-6. Deployment should be confirmed by a message on a green background saying "Your site is published at" followed by the web address.
+4. Click the drop down below 'Source' and select 'Deploy from a Branch'.
+5. Click the drop down under 'Branch' and select 'main'.
+5. Click 'Save'.
 
-The live link can be found here - []()
+At the top of the page there's a section describing the status of your site and when it was last deployed. 
+To remove the project from auto-deploy:
+Repeat step 1-2 in the above list
+3. Click the drop down under 'Branch' and select 'None'.
+4. Click 'Save'.
+
+
+The live link can be found here - [REAL Records](https://andersganander.github.io/record_store/)
 
 ## Credits
 
 ### Content
-All content was produced by the author.
+All texts was written by the site owner.
 
 ### Media
+#### Photos
+- Photo on EVENTS page from (https://www.pexels.com/@cottonbro/)
+- Photo on HOME page and CONTACT page by Adrian Korte on Unsplash
+- Photo on RECORDS page by Mick Haupt on Unsplash
+- Photo in header on all pages by Samuel Regan-Asante on Unsplash
+
+#### Fonts and icons
+- Dymo Font Ivers (used om the CONTACT page) from (https://www.fonts4free.net/dymo-font-invers-font.html
+)
+- [Font Awesome](https://fontawesome.com/) used for icons in footer and event cards
+- [Freefavicon](https://www.freefavicon.com/) used for creating favicon.
+
 
 ### Resources Used
+- Love Running walkthrough, especially how to use font awesome in footer.
+- [Mmdn](https://developer.mozilla.org/en-US/docs/Web/CSS) for tutorials, tips and tricks
+- [w3Schools] (https://www.w3schools.com/) for tutorials, tips and tricks. 
+- Code snippet to calculate width from (https://www.w3schools.com/cssref/func_calc.php) 
+- Inspiration on how to use box-shadow: https://www.freecodecamp.org/news/html-div-what-is-a-div-tag-and-how-to-style-it-with-css/ 
+
 
 ## Acknowledgments
+- I received support and helpful advices from my mentor, Antonio.
+- The slack community, where everyone is really helpful and supportive.
