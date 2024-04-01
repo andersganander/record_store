@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Rubik+Mono+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @font-face {
     font-family:DymoFontInvers;
     src: url(assets/fonts/DymoFontInvers.ttf);
@@ -11,11 +9,12 @@ body, html {
     height: 100%;
 }
 
+/* Center text etc */
 .v-center{
     align-self: center;
 }
 
-/*Text box with white background */
+/*Text box with white background and a slight opacity */
 .textbox {
     background-color: #ffffff;
     opacity: 0.95;
@@ -44,11 +43,10 @@ nav {
     align-items:center;
 }
 
-/* formatting for links in nav bar*/
+/* formatting for links in nav bar */
 nav a {
     font-family: 'Courier New', Courier, monospace;
     color: #d91010;
-    /*font-family: 'DymoFontInvers', sans-serif;*/
     font-size: larger;
     text-decoration: none;
     font-weight: bolder;
@@ -60,14 +58,13 @@ nav a {
 }
 
 h1,h2,h3 {
-    /*font-family: 'DymoFontInvers', sans-serif;*/
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
     text-transform: uppercase;
     color: #d91010;
 }
 
-h4,.dymo_text{
+.dymo_text{
     font-family: DymoFontInvers;
 }
 
@@ -126,6 +123,7 @@ p {
     text-align: left; 
 }
 
+/* Page backgrounds */
 .bg_records{
     background-image: url('assets/images/mick-haupt-xOwbhrCGpIU-unsplash.jpg');
 }
@@ -142,6 +140,7 @@ p {
     background-image: url('assets/images/adrian-korte-5gn2soeAc40-unsplash.jpg');
 }
 
+/* Record page related style rules */
 .record_card {
     background-color: white;
     box-shadow: -9px 11px 10px 8px rgba(0, 0, 0, 0.7);
@@ -149,7 +148,6 @@ p {
     text-align: left; 
     padding: 10px;
     box-sizing: border-box;
-
 }
 
 .card_container{
@@ -180,6 +178,7 @@ p {
     justify-content: space-around;  
 }
 
+/* Event page related style rules */
 .event_card{
     background-color: white;
     box-shadow: -9px 11px 10px 8px rgba(0, 0, 0, 0.7);
@@ -213,6 +212,7 @@ p {
     text-transform: uppercase;
 }
 
+/* Contact page related */
 #contact_form{
     padding-right: 0px;
 }
@@ -249,6 +249,7 @@ p {
     color: #fafafa;
 }
 
+/* Footer */
 footer {
     height: 8vh;
     background-color: black;
@@ -264,6 +265,7 @@ footer {
     text-align: center;
 }
 
+/* Font awesome icons in footer */
 footer i {
     font-size: 160%;
     padding: 5px;
@@ -271,19 +273,12 @@ footer i {
     color: #d91010;
 }
 
+/* Box-shadow rule */ 
 .box-shadow {
     padding: 10px;
     border-radius: 4px;
     box-shadow: -9px 11px 10px 8px rgba(0, 0, 0, 0.7);
   }
-
-  /* Google fonts */
-.rubik-mono one-regular {
-    font-family: "Rubik Mono One", monospace;
-    font-weight: 400;
-    font-style: normal;
-  }
-
 
 @media screen and (max-width: 768px) {
     h1 {
@@ -293,12 +288,7 @@ footer i {
         padding-right: 20px;
     }
 
-   /* nav a {
-        color: #d91010;
-        font-size: small;
-        text-decoration: none;
-    } */
-
+    /* Make event cards wider on smaller screen for a better user experience */
     .event_card{
         width:auto
     }

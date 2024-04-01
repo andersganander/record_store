@@ -5,31 +5,32 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
         <link rel="icon" type="image/x-icon" href="assets/icon/favicon.ico">
-
-           <!-- Google Fonts -->
-           <link rel="preconnect" href="https://fonts.googleapis.com">
-           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-           <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
            
         <title>Real Records</title>
     </head>
 
     <body>
+
+        <!-- header section with header on white background -->
         <header>
             <div class="v-center textbox">
                 <h1>REAL RECORDS</h1>
             </div>
         </header>
+
+        <!-- navbar section -->
         <nav>
             <a href="index.html" aria-label="Start page">HOME</a>
             <a href="records.html" aria-label="New records">RECORDS</a>
             <a href="events.html" aria-label="List of upcoming events">EVENTS</a>
             <a href="contacts.html" class="active" aria-label="Contact form">CONTACT</a>
         </nav> 
+
+        <!-- main section with background image -->
         <main class="bg_contact">
+            <!-- form container -->
             <div class="form_container">
                 <form id="contact_form" action="https://formdump.codeinstitute.net/" target="_blank" >
-                
                     <label for="category" class="dymo_text">Category</label><br>
                     <select id="category" name="category" required>
                     <option value="record">I'm interested in one of the records</option>
@@ -56,10 +57,11 @@
                     <input type="email" id="email" name="email" required>
                     <br><br>
                     <input type="submit" value="Submit">
-                
                 </form>
             </div> 
         </main>
+
+        <!-- footer with social media links -->
         <footer>
             <div id="social_networks">
             <a href="https://www.facebook.com" target="_blank" rel="noopener" 
@@ -78,10 +80,10 @@
                 <a href="https://www.instagram.com/" target="_blank" rel="noopener"
                     aria-label="Visit our Instagram page (opens in a new tab)">
                     <i class="fa-brands fa-instagram"></i></a>
-            
             </div>
         </footer>
-        <!-- Font Awesome kit-->
+
+        <!-- Font Awesome kit with icons used in social media links -->
         <script src="https://kit.fontawesome.com/4278793463.js" crossorigin="anonymous"></script>
     </body>
 </html>
