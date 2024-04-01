@@ -9,9 +9,8 @@ The live link can be found here - [REAL Records](https://andersganander.github.i
 ## Site Owner Goals 
 - To make the user curious to visit the physical store by:
     - Showing records that can be found in the store
-    - Inform users about upcoming events
+    - Inform users about upcoming events both in the store and elsewhere
     - Re-create the same atmosphere on the web site as in the store
--  To make the users wanting to be a part of a community
 
 ## User Stories
 - ### First time user
@@ -67,19 +66,22 @@ Wireframes were produced using Balsamiq.
 - ### Navigation
 
     - The responsive navigation bar contains links to Home, Records, Events and Contact Pages.
-    - The current page is marked in the navigation bar with a different color.
+    - The active page is marked in the navigation bar with a different color.
     - External pages are opened in a new tab so that user won't be confused.
     - The text on the landing page also contain links to the other pages to make the user aware of what he/she can expect to find on the site. 
 
 ![Nav bar image](docs/readme_images/nav_bar.jpg)
 
 - ### The Landing Page
-    - The landing page...
+    - The landing page is very straightforward and presents information about the subject. 
 
 ![Landing page image](docs/readme_images/landing_page.jpg) 
 
 - ### Records Page
-    - This page
+    - On the records page the user find a selection of records currently in the store.
+    - In the text at the top of the page there are links to the contact page and to an external page which explains the grading standard that is used.
+    - Each record is presented on a card with pictures of the front and back covers, a short description of the condition and a longer description.
+    - In the nav bar, RECORDS is marked in white to indicate where the user is currently located on the site.
 
 ![Records page image](docs/readme_images/records_page.jpg) 
   
@@ -132,6 +134,9 @@ Wireframes were produced using Balsamiq.
 ### Friends and Family User Testing
 
 ### Fixed Bugs
+
+![List of fixed bugs](docs/readme_images/Fixed_bugs.jpg)
+
 #### ABug 1
 - The 
 
@@ -155,7 +160,6 @@ HTML Smooth Scroll does not work on Safari browser.
 - [Font Awesome](https://fontawesome.com/) - Used for Social Media icons in footer.
 - [GitHub](https://github.com/) - Used for version control and hosting.
 - [Google Fonts](https://fonts.google.com/) - Used to import and alter fonts on the page.
-- [TinyPNG](https://tinypng.com/) - Used to compress images to reduce file size without a reduction in quality.
 - [W3C](https://www.w3.org/) - Used for HTML & CSS Validation.
 - 
 
