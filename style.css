@@ -18,7 +18,7 @@ body, html {
 /*Text box with white background */
 .textbox {
     background-color: #ffffff;
-    opacity: 0.85;
+    opacity: 0.95;
 }
 
 header {
@@ -57,18 +57,15 @@ nav a {
 }
 
 h1,h2,h3 {
-    font-family: 'DymoFontInvers', sans-serif;
+    /*font-family: 'DymoFontInvers', sans-serif;*/
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
     text-transform: uppercase;
     color: #d91010;
 }
 
 h4,.dymo_text{
     font-family: DymoFontInvers;
-}
-
-.dymo_text_sm{
-    font-family: DymoFontInvers;
-    font-size: smaller;
 }
 
 h1 {
@@ -118,10 +115,10 @@ p {
 }
 
 .info_text {
-    background-color: grey; 
+    background-color: #eee; 
     margin: 0 auto 20px; 
     padding: 0px 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    box-shadow: -9px 11px 10px 8px rgba(0, 0, 0, 0.7);
     width: calc(100% - 100px); 
     text-align: left; 
 }
@@ -142,7 +139,7 @@ p {
     background-image: url('assets/images/adrian-korte-5gn2soeAc40-unsplash.jpg');
 }
 
-  .record_card {
+.record_card {
     background-color: white;
     box-shadow: -9px 11px 10px 8px rgba(0, 0, 0, 0.7);
     width: 300px; 
@@ -162,11 +159,13 @@ p {
 }
 
 .artist_title{
-    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
     color:#d91010
 }
 
 .format {
+    font-family:'Courier New', Courier, monospace;
     font-weight: bold ;
 }
 
@@ -207,13 +206,19 @@ p {
 
 .redtext{
     color:#d91010;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+#contact_form{
+    padding-right: 0px;
 }
 
 .form_container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
     width: 300px;
     gap: 20px; 
     padding: 20px;
