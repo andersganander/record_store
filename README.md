@@ -86,7 +86,11 @@ Wireframes were produced using Balsamiq.
 ![Records page image](docs/readme_images/records_page.jpg) 
   
 - ### Events Page
-    - The Events page
+    - The Events page contains information about upcoming events in store. It also contains information about other events that might be of interest for the users.
+    - In the text at the top of the page there is a link to the contact page where the user can sign up to participate in an event.
+    - Each event is presented with a heading, which includes date and time, and a short description.
+    - Some of the event descriptions includes links to external resources. 
+    - In the nav bar, EVENTS is marked in white to indicate where the user is currently located on the site.
 
 ![Events page image](docs/readme_images/events_page.jpg) 
 
