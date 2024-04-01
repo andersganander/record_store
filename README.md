@@ -95,12 +95,14 @@ Wireframes were produced using Balsamiq.
 ![Events page image](docs/readme_images/events_page.jpg) 
 
 - ### Contact page
-    - The contact page
+    - The contact page consists of a form which the user can fill in.
+    - The form contains a drop down with a list of different categorys to choose from, which will make it easier both for the user but also for the site owner.
 
 ![Contact page image](docs/readme_images/contact_page.jpg) 
+![Contact form image](docs/readme_images/form_categorys.jpg) 
 
 - ### Footer
-    - The footer section 
+    - The footer section contains links to Facebook, X (formerly known as twitter), YouTube and Instagram.
 
 ![Footer image](docs/readme_images/footer.jpg)
 
@@ -123,19 +125,21 @@ Wireframes were produced using Balsamiq.
 
 ![Lighthouse score](docs/readme_images/Lighthouse_2.jpg)
 
-### Form Testing
-- The form 
+### User story testing
+The form 
 
-### Links Testing
-- 
+![Feature testing](docs/readme_images/feature_testing.jpg)
+
 
 ### Browser Testing
-- 
+The site were tested in the most common browsers (Chrome, Firefox, Safari and Edge). Alll browser were tested on mac os except for Edge which was tested on Windows 11.
+
+![Browser testing](docs/readme_images/browser_testing.jpg)
+
     
 ### Device Testing
 - 
 
-### Friends and Family User Testing
 
 ### Fixed Bugs
 
@@ -148,7 +152,7 @@ Wireframes were produced using Balsamiq.
 - When I first 
 
 ### Known Bugs
-HTML Smooth Scroll does not work on Safari browser.
+- 
 
 ## Technologies Used
 
