@@ -8,9 +8,9 @@ The live link can be found here - [REAL Records](https://andersganander.github.i
 
 ## Site Owner Goals 
 - To make the user curious to visit the physical store by:
-    - Showing records that can be found in the store
-    - Inform users about upcoming events both in the store and elsewhere
-    - Re-create the same atmosphere on the web site as in the store
+    - Showing records that can be found in the store.
+    - Inform users about upcoming events both in the store and elsewhere.
+    - Re-create the same atmosphere on the web site as in the store.
 
 ## User Stories
 - ### First time user
@@ -32,8 +32,8 @@ The live link can be found here - [REAL Records](https://andersganander.github.i
 ### Imagery
 The images used on the REAL Records web site are chosen to re-create the atmosphere of the real store. Nice images of vinyl records and vinyl players. 
 
-### Colours
-The colors used on the site are mainly black, white and red. Black is the natural and most common color of a vinyl record and therefore seems like a natural choice. It is used as a background color in the navigation bar and in the footer. 
+### Colors
+The colors used on the site are mainly black, white and red. Black is the natural and most common color of a vinyl record and therefore seems like a natural choice. It is used as a background color in the navigation bar and in the footer. Red is used for headings and for links in navbar and footer. White is used as the background color for text on record cards, event cards and the text on the landing page.
 
 ### Fonts
 The font Courier New is used in all texts and alson in headings and links in the nav bar. It's chosen for it's authenticity and it's retro feeling.
@@ -74,6 +74,7 @@ Wireframes were produced using Balsamiq.
 
 - ### The Landing Page
     - The landing page is very straightforward and presents information about the the store and what the user can expect to find on the site.
+    - In the nav bar, HOME is marked in white to indicate where the user is currently located on the site.
 
 ![Landing page image](docs/readme_images/landing_page.jpg) 
 
@@ -89,7 +90,7 @@ Wireframes were produced using Balsamiq.
     - The Events page contains information about upcoming events in store. It also contains information about other events that might be of interest for the users.
     - In the text at the top of the page there is a link to the contact page where the user can sign up to participate in an event.
     - Each event is presented with a heading, which includes date and time, and a short description.
-    - Some of the event descriptions includes links to external resources. 
+    - Some of the event descriptions includes links to external resources (which is opened in a new tab). 
     - In the nav bar, EVENTS is marked in white to indicate where the user is currently located on the site.
 
 ![Events page image](docs/readme_images/events_page.jpg) 
@@ -97,6 +98,9 @@ Wireframes were produced using Balsamiq.
 - ### Contact page
     - The contact page consists of a form which the user can fill in.
     - The form contains a drop down with a list of different categorys to choose from, which will make it easier both for the user but also for the site owner.
+    - All the fields in the form are required and the email adddress must contain a @.
+    - When the user click the submit button and the form has been validated, a new page is opened in a new tab containing a table with the data that was sent from the form.
+    - In the nav bar, CONTACT is marked in white to indicate where the user is currently located on the site.
 
 ![Contact page image](docs/readme_images/contact_page.jpg) 
 ![Contact form image](docs/readme_images/form_categorys.jpg) 
@@ -177,10 +181,7 @@ The project was deployed using GitHub pages. The steps to deploy using GitHub pa
 
 At the top of the page there's a section describing the status of your site and when it was last deployed. 
 To remove the project from auto-deploy:
-Repeat step 1-2 in the above list
-3. Click the drop down under 'Branch' and select 'None'.
-4. Click 'Save'.
-
+Repeat step 1-2 in the above list, then click the drop down under 'Branch' and select 'None'. Click 'Save'.
 
 The live link can be found here - [REAL Records](https://andersganander.github.io/record_store/)
 
@@ -195,6 +196,7 @@ All texts was written by the site owner.
 - Photo on HOME page and CONTACT page by Adrian Korte on Unsplash
 - Photo on RECORDS page by Mick Haupt on Unsplash
 - Photo in header on all pages by Samuel Regan-Asante on Unsplash
+- Photos on covers on the RECORDS page were taken by the site owner.
 
 #### Fonts and icons
 - Dymo Font Ivers (used om the CONTACT page) from (https://www.fonts4free.net/dymo-font-invers-font.html
